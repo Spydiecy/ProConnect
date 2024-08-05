@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #101010;
-    color: #fff;
+    color: #E6D5B8;
     margin: 0;
     padding: 0;
 }
@@ -32,15 +32,15 @@ nav .logo img {
     padding: 8px;
     border: none;
     background: transparent;
-    color: #fff;
+    color: #E6D5B8;
     width: 500px;
 }
 
 .search-bar button {
-    background: #E6D5B8;
+    background: #F4A261;
     border: none;
     padding: 8px 12px;
-    color: #fff;
+    color: #101010;
     cursor: pointer;
 }
 
@@ -51,7 +51,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #E6D5B8;
     text-decoration: none;
     padding: 10px;
     display: block;
@@ -203,6 +203,7 @@ nav ul li a {
 
 .service-card h3 {
     margin: 0 0 10px;
+    color: #F4A261;
 }
 
 .testimonials {
@@ -228,6 +229,7 @@ nav ul li a {
     max-width: 600px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: #E6D5B8;
 }
 
 .cta {
@@ -240,8 +242,8 @@ nav ul li a {
 }
 
 .cta-button {
-    background-color: #333;
-    color: white;
+    background-color: #F4A261;
+    color: #101010;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -309,7 +311,7 @@ nav ul li a {
 
 .filter-sidebar select {
     background-color: #333;
-    color: #fff;
+    color: #E6D5B8;
     border: none;
     padding: 8px;
     margin-bottom: 20px;
@@ -319,8 +321,8 @@ nav ul li a {
 }
 
 .filter-sidebar button {
-    background-color: #E6D5B8;
-    color: #fff;
+    background-color: #F4A261;
+    color: #101010;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -329,7 +331,7 @@ nav ul li a {
 }
 
 .filter-sidebar button:hover {
-    background-color: #E6D5B8;
+    background-color: #E76F51;
 }
 
 .projects-list {
@@ -340,6 +342,7 @@ nav ul li a {
 
 .projects-list h2 {
     margin-bottom: 30px;
+    color: #E6D5B8;
 }
 
 .projects-grid {
@@ -354,19 +357,22 @@ nav ul li a {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     text-align: left;
+    color: #E6D5B8;
 }
 
 .project-card h3 {
     margin-top: 0;
+    color: #F4A261;
 }
 
 .project-description {
     margin: 10px 0;
+    color: #E6D5B8;
 }
 
 .project-button {
-    background-color: #E6D5B8;
-    color: white;
+    background-color: #F4A261;
+    color: #101010;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -376,13 +382,376 @@ nav ul li a {
 }
 
 .project-button:hover {
-    background-color: #E6D5B8;
+    background-color: #E76F51;
 }
+
+/* Freelancers Page */
+
+.hero-freelancers {
+    background-image: url('freelancers-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+.hero-freelancers h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.hero-freelancers p {
+    font-size: 1.25rem;
+    margin: 0;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #E6D5B8;
+}
+
+.filter-sidebar {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    max-width: 250px;
+    flex: 0 0 250px;
+    margin-right: 20px;
+}
+
+.freelancers-list {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.freelancers-list h2 {
+    margin-bottom: 30px;
+    color: #E6D5B8;
+}
+
+.freelancers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.freelancer-card {
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #E6D5B8;
+}
+
+.freelancer-photo {
+    width: 120px;
+    height: 180px;
+    border: #E6D5B8 solid;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.freelancer-card h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #F4A261;
+}
+
+.freelancer-card p {
+    margin: 5px 0;
+    color: #E6D5B8;
+}
+
+.skill-tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.tag {
+    background-color: #333;
+    color: #E6D5B8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 0.9rem;
+}
+
+.freelancer-button {
+    background-color: #F4A261;
+    color: #101010;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.freelancer-button:hover {
+    background-color: #E76F51;
+}
+
+.cta-freelancers {
+    background-color: #1a1a1a;
+    padding: 50px 20px;
+    text-align: center;
+    color: #E6D5B8;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.cta-freelancers h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #E6D5B8;
+}
+
+.cta-freelancers p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #E6D5B8;
+}
+
+.benefits-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.benefit-item {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #262626;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    text-align: center;
+    color: #E6D5B8;
+}
+
+.benefit-item i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #E6D5B8;
+}
+
+.benefit-item p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #E6D5B8;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.testimonial blockquote {
+    font-size: 1.1rem;
+    font-style: italic;
+    margin: 0;
+    color: #E6D5B8;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #F4A261;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+/* Become a Freelancer Page */
+
+.become-a-freelancer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.hero-b-freelancers {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-freelancers h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.hero-freelancers p {
+    font-size: 1.25rem;
+    margin: 0;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    color: #E6D5B8;
+}
+
+.cta-button {
+    background-color: #F4A261;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.cta-button:hover {
+    background-color: #E76F51;
+}
+
+.section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #E6D5B8;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #E6D5B8;
+}
+
+.how-grid, .testimonials-slider {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.how-step, .testimonial-card {
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    width: 220px;
+    text-align: center;
+}
+
+.how-step:hover, .testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+}
+
+.how-step i {
+    font-size: 2.5rem;
+    color: #E6D5B8;
+    margin-bottom: 10px;
+}
+
+.how-step h3, .testimonial-card cite {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: #F4A261;
+}
+
+.how-step p, .testimonial-card blockquote {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #E6D5B8;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #E6D5B8;
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.benefits ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.benefits ul li::before {
+    content: '\2713'; /* Checkmark */
+    color: #F4A261;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    background-color: #262626;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    cursor: pointer;
+}
+
+.faq-item h3 {
+    font-size: 1.3rem;
+    color: #F4A261;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    color: #E6D5B8;
+    margin: 0;
+}
+
 /* Footer */
 
 footer {
     background-color: #1a1a1a;
-    color: #fff;
+    color: #E6D5B8;
     text-align: center;
     padding: 10px;
 }
