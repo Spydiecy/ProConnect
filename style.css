@@ -747,6 +747,98 @@ nav ul li a {
     margin: 0;
 }
 
+/* General form styles (Sign Up & Login pages) */
+.form-container {
+    background-color: #262626;
+    padding: 40px;
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    color: #E6D5B8;
+    text-align: center;
+}
+
+.form-container h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #F4A261;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.form-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #F4A261;
+    font-weight: bold;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #E6D5B8;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+.form-container input:focus {
+    background-color: #444;
+    outline: none;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #F4A261;
+    border: none;
+    border-radius: 5px;
+    color: #101010;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #E76F51;
+    transform: translateY(-2px);
+}
+
+.form-container .signup-options, .form-container .login-options {
+    margin-top: 20px;
+}
+
+.form-container .signup-as-freelancer, .form-container .login-as-freelancer {
+    display: inline-block;
+    background-color: #F4A261;
+    color: #101010;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.form-container .signup-as-freelancer:hover, .form-container .login-as-freelancer:hover {
+    background-color: #E76F51;
+    transform: translateY(-2px);
+}
+
+.form-container p a {
+    color: #F4A261;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.form-container p a:hover {
+    color: #E76F51;
+    text-decoration: underline;
+}
+
 /* Footer */
 
 footer {
